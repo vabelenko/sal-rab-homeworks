@@ -50,7 +50,9 @@ function calcDiscount(sum, min, discount) {
         } else {
             discountSum = 0;
     }
-
+//Владимир, здравствуйте. Спасибо за присланную работу. Во втором задании управляющую конструкцию лучше было заменить тернарным оператором. Запись была бы компактней.
+// let discountSum = productsSum >= discountMinSum ? productsSum / 100 * discountPart : 0;
+// В остальном, всё реализовано замечательно. Вы проделали отличную работу, удачи в дальнейшем обучении! 
     return discountSum;
 }
 

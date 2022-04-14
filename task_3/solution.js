@@ -25,7 +25,9 @@ function renderCartItem(item) {
    
     let sum = product.count*product.price;
     let itemCountText = product.count + ` × ` + product.price + ` ₽ = ` + sum + ` ₽`;
-
+    // Владимир, здравствуйте. Спасибо за присланную работу. Если используете шаблонную строку (с косыми кавычками), то все значения можно было объединить в одну строку:
+    //let itemCountText = `${product.count} × ${product.price} ₽ = ${product.count * product.price} ₽`;
+    //Вы проделали отличную работу, удачи в дальнейшем обучении!
 
     // Конец решения задания №3.1.
 
